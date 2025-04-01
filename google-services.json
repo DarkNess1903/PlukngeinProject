@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "782278667448",
+    "project_id": "plukngeinproject-27b7f",
+    "storage_bucket": "plukngeinproject-27b7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782278667448:android:e81ca56cac4be010df184d",
+        "android_client_info": {
+          "package_name": "com.mycorp.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDb9KwP70CNJ1tLSkYRZ7Pew-R8OE2yJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
