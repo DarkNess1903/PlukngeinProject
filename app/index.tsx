@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   logo: {
-    width: 450, // ปรับขนาดตามต้องการ
-    height: 450,
+    width: 350, // ปรับขนาดตามต้องการ
+    height: 350,
   },
   text: {
     fontSize: 32,

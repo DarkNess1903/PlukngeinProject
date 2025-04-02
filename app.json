@@ -51,6 +51,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "firebaseApiKey": "AIzaSyCHKZlw_FW4w_3eFrRZLYRvt_vEMFafP7w",
+      "firebaseAuthDomain": "plukngeinproject-27b7f.firebaseapp.com",
+      "firebaseProjectId": "plukngeinproject-27b7f",
+      "firebaseStorageBucket": "plukngeinproject-27b7f.firebasestorage.app",
+      "firebaseMessagingSenderId": "xxxxxxxxxxxx",
+      "firebaseAppId": "1:782278667448:ios:f64ce7c738290893df184d"
     }
   }
 }
