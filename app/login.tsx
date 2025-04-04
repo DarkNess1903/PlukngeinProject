@@ -14,12 +14,12 @@ export default function LoginScreen() {
 
   const handleLogin = async () => {
     if (!phone || !pin) {
-      Alert.alert('ข้อผิดพลาด', 'กรุณากรอกเบอร์โทรศัพท์และ PIN');
+      Alert.alert('ข้อผิดพลาด', 'กรุณากรอกเบอร์โทรศัพท์และ รหัสผ่าน');
       return;
     }
 
     if (!/^\d{6}$/.test(pin)) {
-      Alert.alert('ข้อผิดพลาด', 'PIN ต้องเป็นตัวเลข 6 หลัก');
+      Alert.alert('ข้อผิดพลาด', 'รหัสผ่าน ต้องเป็นตัวเลข 6 หลัก');
       return;
     }
 
@@ -48,7 +48,7 @@ export default function LoginScreen() {
         const errorCode = error.code;
         const errorMsg = error.message;
         if (errorCode === 'auth/wrong-password') {
-          errorMessage = 'PIN ไม่ถูกต้อง';
+          errorMessage = 'รหัส ไม่ถูกต้อง';
         } else if (errorCode === 'auth/user-not-found') {
           errorMessage = 'ไม่พบผู้ใช้ในระบบ';
         } else if (errorCode === 'auth/invalid-email') {
